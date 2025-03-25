@@ -61,4 +61,7 @@ impl ConfidentialTransactions {
             Err(ProofError::VerificationError)
         }
     }
+    pub fn get_blinding(&self) -> &Scalar {
+        &self.blinding
+    }
 }

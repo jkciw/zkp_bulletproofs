@@ -1,5 +1,5 @@
 pub mod confidential;
-pub mod utils;
 pub mod confidential_swap;
+pub mod utils;
 
 pub use confidential::ConfidentialTransactions;
